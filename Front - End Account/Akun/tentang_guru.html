@@ -6,7 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/logogan.png">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+     <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+     <script type="text/javascript">
+         $(document).ready(function (e) {
+             $('.has-sub').click(function () {
+                 $(this).toggleClass('tap');
+             });
+         });
+     </script>
     <style>
         body {
             background-color: #E4E4E4;
@@ -53,7 +62,7 @@
             <ul class="main-nav-ul">
                 <div class="profile">
 
-                    <img src="../seha2.jpg" width="50px" height="50px">
+                    <img src="../assets/seha2.jpg" width="50px" height="50px">
 
                     <p class="nama">Nama</p>
                     <p class="pengelola">Pengelola Akun</p>
@@ -61,28 +70,44 @@
                 </div>
                 <li><a href="dashboard.html"><i class="fas fa-qrcode"></i>Dashboard</a></li>
 
-                <li><a href="create.html" class="arrow"><i class="fas fa-user-circle"></i>Buat Akun</a>
-                    <ul class="side_drop">
+                                <li class="has-sub"><a href="#"><i class="fas fa-user-circle"></i><span
+                                            class="after">Buat
+                                            Akun</span></i></a>
 
-                        <li><a href="create_guru.html"><i class="fas fa-angle-double-right"></i>Buat Akun Guru</a></li>
-                        <li><a href="create_wali.html"><i class="fas fa-angle-double-right"></i>Buat Akun Wali Kelas</a>
-                        </li>
-                        <li><a href="create_staff.html"><i class="fas fa-angle-double-right"></i>Buat Akun Staff</a>
-                        </li>
+                                    <ul class="side_drop">
 
-                    </ul>
-                </li>
+                                        <li><a href="create_guru.html"><i class="fas fa-angle-double-right"></i>Buat
+                                                Akun Guru</a></li>
+                                        <li><a href="create_wali.html"><i class="fas fa-angle-double-right"></i>Buat
+                                                Akun Wali Kelas</a>
+                                        </li>
+                                        <li><a href="create_staff.html"><i class="fas fa-angle-double-right"></i>Buat
+                                                Akun Staff</a>
+                                        </li>
 
-                <li><a href="tentang.html" class="arrow"><i class="far fa-address-card"></i>Tentang Akun</a>
-                    <ul class="side_drop">
-                        <li><a href="tentang_guru.html"><i class="fas fa-angle-double-right"></i>Akun Guru</a></li>
-                        <li><a href="tentang_wali.html"><i class="fas fa-angle-double-right"></i>Akun Wali Kelas</a>
-                        </li>
-                        <li><a href="tentang_staff.html"><i class="fas fa-angle-double-right"></i>Akun Staff</a></li>
-                    </ul>
+                                    </ul>
+                                </li>
 
 
-                </li>
+
+
+                                <li class="has-sub"><a href="#"><i class="fas fa-address-card"></i><span
+                                            class="after">Tentang
+                                            Akun</span></i></a>
+
+                                    <ul class="side_drop">
+
+                                        <li><a href="tentang_guru.html"><i class="fas fa-angle-double-right"></i>Tentang
+                                                Akun Guru</a></li>
+                                        <li><a href="tentang_wali.html"><i class="fas fa-angle-double-right"></i>Tentang
+                                                Akun Wali Kelas</a>
+                                        </li>
+                                        <li><a href="tentang_staff.html"><i
+                                                    class="fas fa-angle-double-right"></i>Tentang Akun Staff</a>
+                                        </li>
+
+                                    </ul>
+                                </li>
                 <li><a href="#" onclick="logout()"><i class="fas fa-power-off"></i>Log Out</a></li>
 
             </ul>
@@ -102,7 +127,7 @@
 
             </form>
             <div class="form-search">
-                <img src="../nataz.jpg">
+                <img src="../assets/nataz.jpg">
                 <form action="">
 
                     <label for="">
