@@ -1,0 +1,24 @@
+ICON
+
+(Bagian Akun)
+• Dashboard https://fontawesome.com/icons/tachometer-alt?style=solid 
+• Buat Akun https://fontawesome.com/icons/plus-square?style=regular
+• Tentang Akun https://fontawesome.com/icons/address-card?style=regular
+• Log Out https://fontawesome.com/icons/sign-out-alt?style=solid
+
+
+(Bagian Guru)
+•Dashboard https://fontawesome.com/icons/tachometer-alt?style=solid
+•Data Kompetensi Dasar https://fontawesome.com/icons/inbox?style=solid
+•Input Nilai https://fontawesome.com/icons/folder?style=solid
+•View Nilai https://fontawesome.com/icons/chalkboard-teacher?style=solid
+•Kirim Nilai https://fontawesome.com/icons/share-square?style=solid
+
+(Bagian Wali)
+•Data Peserta Didik https://fontawesome.com/icons/book-reader?style=solid
+•Proses Deskripsi Sikap https://fontawesome.com/icons/edit?style=solid
+ •Input Nilai https://fontawesome.com/icons/folder?style=solid
+•Rekap Kehadiran https://fontawesome.com/icons/user-check?style=solid
+ •Leger https://fontawesome.com/icons/journal-whills?style=solid
+•Cetak https://fontawesome.com/icons/print?style=solid
+• Log Out https://fontawesome.com/icons/sign-out-alt?style=solid
