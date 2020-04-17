@@ -42,10 +42,18 @@ label {
     transition: 0.25s;
     width: 150px;
 }
+
+/* DASHBOARD */
+.header{
+    background-color: #6597A9;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
 .sidebar{
     border: none;
     outline: none;
-    background-color: #3B5964;
+    background-color: #6597A9;
     cursor: pointer;
     color: white;
     width: auto;
@@ -126,3 +134,45 @@ label {
     font-size: 20px;
     margin-left: 50px;
   }
+
+/* DATA WALIKELAS */
+.search{
+    margin-left: 8px;
+    padding: 8px 15px;
+    border: 0px;
+    width: 92.5%;
+}
+.button-search{
+    position: relative;
+    padding: 8px 15px;
+    /* left: -8px; */
+    right: 8px;
+    border: 2px #6597A9;
+    background-color: #6597A9;
+    /* color: red; */
+}
+.button-search:hover{
+    background-color:#3B5964;
+}
+
+.tabel-data-wali{
+    width: 100%;
+}
+.foto-profile-walikelas{
+    width: 50px;
+    height: 50px;
+}
+.tambah-wali{
+    position: fixed;
+    right: 10;
+    bottom: 10;
+}
+.button-tambah-wali{
+    position: relative;
+    padding: 8px 15px;
+    border: 2px #6597A9;
+    background-color: #6597A9;
+}
+.button-tambah-wali:hover{
+    background-color: #3B5964;
+}

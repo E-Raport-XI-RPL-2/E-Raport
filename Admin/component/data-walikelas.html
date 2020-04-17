@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        body{
+            background-color: #E4E4E4;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidenav" id="mySidebar">
+        <button onclick="closeNav()" class="closebtn">
+        &times;</button>
+        <div class="akun">
+            <h3><img src="../assets/logo.png" class="foto-profile"> Nama Admin</h3>
+        </div>
+            <a href="">Dashboard</a>
+            <a href="">Data Walikelas</a>
+            <a href="">Data Guru Pengajar</a>
+            <a href="">Data Siswa</a>
+            <a href="">Tambah Akun</a>
+            <a href="">Akun Walikelas</a>
+            <a href="">Akun Guru Pengajar</a>
+            <a href="">Akademik</a>
+            <a href="">Input Nilai</a>
+            <a href="">Kehadiran</a>
+            <a href="">Nilai Sikap</a>
+            <a href="">Jumlah Kelas</a>
+            <a href="">Mata Pelajaran</a>
+            <a href="">Jumlah Jurusan</a>
+            <a href="">Cetak</a>
+            <a href="">Logout</a>
+    </div>
+    <div id="main">
+        <table class="header">
+            <!-- HEADER -->
+            <div class="header">
+            <tr>
+                <td><button class="sidebar" id="openNav" onclick="openNav()"><i class="fa fa-bars"></i></button></td>
+                <td class="judulhalaman">Data Wali Kelas</td>
+            </tr>
+            </div>
+        </table>
+    <br>
+    <form class="search-wali">
+        <input class="search" type="text" placeholder="Cari..." required>
+        <input class="button-search" type="button" value="Cari">
+      </form>      
+    <table class="tabel-data-wali" border="1">
+        <tr>
+            <th>
+                No
+            </th>
+            <th>NIP</th>
+            <th>Nama Guru</th>
+            <th>Alamat</th>
+            <th>Kelamin</th>
+            <th>No. Telepon</th>
+            <th>Foto</th>
+            <th>Aksi</th>
+        </tr>
+        <tr align="center">
+            <td>1</td>
+            <td>023123</td>
+            <td>Nyoman Mure</td>
+            <td>Jln. Wangaya No. 4</td>
+            <td>Laki-Laki</td>
+            <td>097654321</td>
+            <td><img src="../assets/logo.png" class="foto-profile-walikelas"></td>
+            <td>
+                <a href="#">Edit</a>
+                <a href="#">Hapus</a>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <div class="tambah-wali">
+        <button class="button-tambah-wali">Tambah</button>
+    </div>
+    <script>
+        function openNav() {
+        document.getElementById("mySidebar").style.width = "275px";
+        document.getElementById("main").style.marginLeft = "275px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        }
+     </script>
+        
+</body>
+</html>
